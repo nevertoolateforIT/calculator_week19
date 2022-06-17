@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Calculator.css">
+    
+</head>
+<body>
+ 
+    <h2>Calculator</h2> 
+    <hr>
+    <div id="options"> 
+        <ul>
+            <li> <input id ="num1" type = "text" placeholder ="Enter first number here"/></li>
+            <li> <button id="add" onClick="op='add'">+</button></li>
+            <li> <button id="subtract" onClick="op='subtract'">-</button></li>
+            <li> <button id="multiply" onClick="op='multiply'">*</button></li>
+            <li> <button id="divide" onClick="op='divide'">/</button></li>  
+            <li><input id ="num2" type = "text" placeholder ="Enter second number here"/></li>
+            <button onclick="func()">Result</button> 
+            <p id="result">Answer:</p>       
+</ul>   
+</div>
+    <script src="./Calculator.js"></script>
+    
+</body>
+</html>
+
+  

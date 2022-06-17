@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+    padding-left: 2%;
+}
+button{
+    height: 5em; 
+    width: 10em;
+    font-size: medium;
+}
+button:hover{
+    color: green;
+    height: 6em;
+    width: 11em;
+}
+input[type=text]{
+    border:1px solid gray;
+    height: 5em; 
+    width: 14em;
+    text-align: center;
+    
+}
+input[type=text]:hover{
+    height: 6em; 
+    width: 15em;
+    text-align: center;
+}
+p{
+    font-weight:bold;
+    color:rgb(255, 0, 34);
+    font-size: large;
+}
+
+#options {
+    text-align: center;
+}
+li{
+    list-style-type:none;
+    padding-bottom: 1em;
+}
